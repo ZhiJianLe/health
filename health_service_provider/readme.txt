@@ -1,0 +1,1 @@
+health_service_provider:作为服务单独部署，存放服务类、Dao接口和Mapper映射文件等

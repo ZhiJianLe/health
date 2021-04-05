@@ -62,6 +62,7 @@
                             :total="pagination.total">
                         </el-pagination>
                     </div>
+
                     <!-- 新增标签弹层 -->
                     <div class="add-form">
                         <el-dialog title="新增检查项" :visible.sync="dialogFormVisible">
@@ -268,12 +269,12 @@
                 },
                 // 重置表单
                 resetForm() {
+                    this.formData = {};
                 },
                 // 弹出添加窗口
                 handleCreate() {
-					this.formData = {};
 					this.dialogFormVisible = true;
-					
+					this.resetForm();
                 },
                 // 弹出编辑窗口
                 handleUpdate(row) {

@@ -1,0 +1,14 @@
+entity\QueryPageBean.class
+entity\PageResult.class
+domain\Order.class
+domain\Role.class
+domain\OrderSetting.class
+domain\Setmeal.class
+domain\CheckGroup.class
+entity\Result.class
+domain\Menu.class
+domain\Permission.class
+domain\CheckItem.class
+constant\MessageConstant.class
+domain\Member.class
+domain\User.class
